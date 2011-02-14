@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <title>Striim - Your medias in your browser</title> 
+        <link rel="stylesheet" href="public/styles.css"/> 
+    </head> 
+    <body> 
+        <header> 
+            <hgroup> 
+                <h1>HTML5 medias</h1> 
+            </hgroup> 
+        </header> 
+        <section> 
+            <header> 
+                <h1>Video</h1> 
+            </header> 
+            <video class="video" width="352" height="264" controls> 
+                <source src="public/test.avi"></source> 
+            </video> 
+        </section> 
+        <section> 
+            <header> 
+                <h1>Audio</h1> 
+            </header> 
+            <audio class="audio" controls preload> 
+                <source src="public/test.mpga"></source> 
+            </audio> 
+        </section> 
+        <section> 
+            <header> 
+                <h1>Icecast Audio</h1> 
+            </header> 
+            <audio class="audio" controls preload> 
+                <source src="/stream/radio"></source> 
+            </audio> 
+        </section> 
+        <footer> 
+            <p>Developed by <a href="https://github.com/docteurklein/node-striim" title="Developed by Florian Klein">Florian Klein</a>.</p> 
+        </footer> 
+    </body> 
+</html>
